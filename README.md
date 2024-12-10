@@ -52,7 +52,7 @@ qris.set_merchant_city("Bandung")
 qris.set_postal_code("40123")
 
 # Menyimpan gambar QRIS yang telah diedit
-qris.save("output.png", width="600")
+qris.save("output.png", width=600)
 ```
 
 ### Fungsi Utama

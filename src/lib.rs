@@ -67,7 +67,7 @@ impl NodeHashMap{
                 });
                 Value::Nodes(node_vec)
             },
-            NodeHashMap::String(val)=>{
+            Self::String(val)=>{
                 Value::Value(val.to_string())
             }
         }
@@ -103,7 +103,6 @@ impl QRIS {
         match img {
             Ok(img) => {
                 let luma8 = img.to_luma8();
-                // print!("lumes {:#?}", lume8);
                 let mut detect = rqrr::PreparedImage::prepare(luma8);
                 let grid = detect.detect_grids();
                 if grid.len() > 0 {
