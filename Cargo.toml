@@ -12,5 +12,5 @@ crate-type = ["cdylib"]
 fast_qr = { version = "0.12.7", features = ["image"] }
 image = "0.25.5"
 pyo3 = "0.22.0"
-qris = "0.1.0"
+qris = "0.1.1"
 rqrr = "0.8.0"

@@ -833,9 +833,9 @@ dependencies = [
 
 [[package]]
 name = "qris"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a6a47563f70e5c2c46abbe0a71aa64e332175def04c0a48ca19dd1d572a44c29"
+checksum = "1bb50f59474f1f934f183afcf1f3e35526c934e89b02c57b9a90e89d3a88e138"
 
 [[package]]
 name = "quick-error"
