@@ -1,0 +1,16 @@
+[package]
+name = "pyqris"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "pyqris"
+crate-type = ["cdylib"]
+
+[dependencies]
+fast_qr = { version = "0.12.7", features = ["image"] }
+image = "0.25.5"
+pyo3 = "0.22.0"
+qris = "0.1.0"
+rqrr = "0.8.0"
